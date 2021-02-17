@@ -24,7 +24,7 @@ public class Catalogo {
       for(Animale a:catalogo){
        if(a instanceof Cane){
         Cane b=(Cane)a;
-        System.out.println(b.getNome()+" "+b.getRazza() + a.getClass());
+        System.out.println(b.getNome()+" "+b.getRazza() + " "+ a.getClass());
        }
       }
   
